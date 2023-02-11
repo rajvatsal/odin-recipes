@@ -1,0 +1,138 @@
+
+/* Fira Sans Thin */
+@font-face {
+  font-family: "Fira Sans";
+  src: url('fonts/fira/eot/FiraSans-Thin.eot');
+  src: url('fonts/fira/eot/FiraSans-Thin.eot') format('embedded-opentype'),       
+       url('fonts/fira/woff2/FiraSans-Thin.woff2') format('woff2'),
+       url('fonts/fira/woff/FiraSans-Thin.woff') format('woff'),
+       url('fonts/fira/woff2/FiraSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url('fonts/fira/eot/FiraSans-ThinItalic.eot');
+  src: url('fonts/fira/eot/FiraSans-ThinItalic.eot') format('embedded-opentype'),
+       url('fonts/fira/woff2/FiraSans-ThinItalic.woff2') format('woff2'),
+       url('fonts/fira/woff/FiraSans-ThinItalic.woff') format('woff'),
+       url('fonts/fira/woff2/FiraSans-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* Fira Sans Light */
+@font-face {
+  font-family: "Fira Sans";
+  src: url('fonts/fira/eot/FiraSans-Light.eot');
+  src: url('fonts/fira/eot/FiraSans-Light.eot') format('embedded-opentype'),
+       url('fonts/fira/woff2/FiraSans-Light.woff2') format('woff2'),
+       url('fonts/fira/woff/FiraSans-Light.woff') format('woff'),
+       url('fonts/fira/woff2/FiraSans-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url('fonts/fira/eot/FiraSans-LightItalic.eot');
+  src: url('fonts/fira/eot/FiraSans-LightItalic.eot') format('embedded-opentype'),
+       url('fonts/fira/woff2/FiraSans-LightItalic.woff2') format('woff2'),
+       url('fonts/fira/woff/FiraSans-LightItalic.woff') format('woff'),
+       url('fonts/fira/woff2/FiraSans-LightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+    }
+
+/* Fira Sans regular */
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Regular.eot');
+    src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+}
+
+/* Fira Sans italic */
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Italic.eot');
+    src: url('fonts/fira/eot/FiraSans-Italic.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-Italic.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-Italic.woff2')  format('woff'),
+         url('fonts/fira/woff2/FiraSans-Italic.woff2') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Fira Sans bold */
+@font-face{
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Bold.eot');
+    src: url('fonts/fira/eot/FiraSans-Bold.eot') format('embedded-opentype'),
+         url('fonts/fira/woff/FiraSans-Bold.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-Bold.woff2') format('woff2'),
+         url('fonts/fira/woff2/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Fira Sans bold italic */
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-BoldItalic.eot');
+    src: url('fonts/fira/eot/FiraSans-BoldItalic.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-BoldItalic.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-BoldItalic.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+/* -----------------------How to apply fonts ------------------------- */
+body {
+    margin: 0;
+    background-color: rgba(192, 192, 192, 0.603);
+    color: hsl(0, 0%, 10%);
+    line-height: 1.5;
+    font-family: "Fira Sans", "PT Sans", Calibri, sans-serif;
+  }
+
+.content-width {
+    max-width: 70ch;          /* allows author to constraint width to a certain extent */  
+    width: calc(100% - 4rem); /* specifies width of the content area, padding area or border area on certain boxes */
+    margin:0 auto;
+  }
+
+main {
+    margin-bottom: 4rem;
+}
+
+header {
+    margin-bottom: 2.5rem;
+    padding: 2.0rem 0;
+    background-color: rgb(46, 46, 46);
+    color: hsl(0, 0%, 100%);
+  }
+
+header p {
+  background-color: rgb(46, 46, 46);
+  color: hsl(0, 0%, 100%);
+}
+
+h2,
+ul {
+    font-style: italic;
+    font-size:large;
+    color: rgb(46, 46, 46);
+    line-height: 1.25;
+   }
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
